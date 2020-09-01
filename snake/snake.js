@@ -86,9 +86,9 @@
           var context = this.canvas.getContext("2d");
           this.canvas.height = this.canvas.width = game.world.tile_size;
 
-          context.fillStyle = "#202830";
+          context.fillStyle = "#e61220";
           context.fillRect(0, 0, this.canvas.width, this.canvas.height);
-          context.fillStyle = "#99ff00";
+          context.fillStyle = "#d40816";
           context.fillRect(1, 1, game.world.tile_size - 2, game.world.tile_size - 2);
 
         }
