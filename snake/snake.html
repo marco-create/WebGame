@@ -3,12 +3,24 @@
 <html>
 
   <head>
-
+  	<style>
+  	#content {
+    	position: relative;
+	}
+	#content img {
+    	position: absolute;
+    	top: 100px;
+    	right: -400px;
+	}
+	</style>style>
+	<div id="content">
+    	<img src="./logo.png" class="ribbon"/>
+    	<div> Snake Game!!! </div>
+	</div> </style>
     <link href = "snake.css" rel = "stylesheet" type = "text/css">
     <link rel="icon" href="./favicon.ico" type="ico" sizes="16x16">
     <meta name = "description" content = "A simple snake game that runs in your browser! Check out the source code!">
     <meta name = "viewport" content = "width=device-width">
-    <img href="./favicon.ico" style="float: left;" />
 
     <title>SNAKE</title>
 
@@ -16,7 +28,7 @@
 
   <body>
 
-    <h1 class = "hideable">PoP Vlog - Snake</h1>
+    <h1 class = "hideable">Snake Game</h1>
 
     <p>SCORE: 0000</p>
     <canvas></canvas>
