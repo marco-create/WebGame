@@ -3,10 +3,10 @@
 ![Picture](https://user-images.githubusercontent.com/53913990/91869705-7c10e700-ec76-11ea-8b33-0a052fb5c81f.png)
 
 - clone the repository 
-```
-> git clone https://github.com/marco-create/WebGame.git
-> cd to/cloned/repository
-```
+Download or Clone the Repository.
+Open the folder using and Text-Editor or an IDE.
+Run index.html file.
+The Game will start in the browser. Good Luck :crossed_fingers: :grinning: .
 - and you are ready to run *Snake.html* in your browser!
 
 
